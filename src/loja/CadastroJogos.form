@@ -1,0 +1,158 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<Form version="1.3" maxVersion="1.9" type="org.netbeans.modules.form.forminfo.JFrameFormInfo">
+  <Properties>
+    <Property name="defaultCloseOperation" type="int" value="3"/>
+    <Property name="title" type="java.lang.String" value="CADASTRO DE JOGOS"/>
+  </Properties>
+  <SyntheticProperties>
+    <SyntheticProperty name="formSizePolicy" type="int" value="1"/>
+    <SyntheticProperty name="generateCenter" type="boolean" value="false"/>
+  </SyntheticProperties>
+  <AuxValues>
+    <AuxValue name="FormSettings_autoResourcing" type="java.lang.Integer" value="0"/>
+    <AuxValue name="FormSettings_autoSetComponentName" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_generateFQN" type="java.lang.Boolean" value="true"/>
+    <AuxValue name="FormSettings_generateMnemonicsCode" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_i18nAutoMode" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_layoutCodeTarget" type="java.lang.Integer" value="1"/>
+    <AuxValue name="FormSettings_listenerGenerationStyle" type="java.lang.Integer" value="3"/>
+    <AuxValue name="FormSettings_variablesLocal" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_variablesModifier" type="java.lang.Integer" value="2"/>
+  </AuxValues>
+
+  <Layout>
+    <DimensionLayout dim="0">
+      <Group type="103" groupAlignment="0" attributes="0">
+          <Group type="102" alignment="0" attributes="0">
+              <EmptySpace max="-2" attributes="0"/>
+              <Component id="jLabel1" min="-2" max="-2" attributes="0"/>
+              <EmptySpace max="32767" attributes="0"/>
+          </Group>
+          <Group type="102" attributes="0">
+              <Group type="103" groupAlignment="0" attributes="0">
+                  <Component id="jLabel2" alignment="0" min="-2" max="-2" attributes="0"/>
+                  <Component id="jLabel3" alignment="0" min="-2" max="-2" attributes="0"/>
+              </Group>
+              <EmptySpace max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="0" attributes="0">
+                  <Component id="txtNome" min="-2" pref="101" max="-2" attributes="0"/>
+                  <Component id="jComboBox1" min="-2" pref="145" max="-2" attributes="0"/>
+              </Group>
+              <EmptySpace min="0" pref="208" max="32767" attributes="0"/>
+          </Group>
+      </Group>
+    </DimensionLayout>
+    <DimensionLayout dim="1">
+      <Group type="103" groupAlignment="0" attributes="0">
+          <Group type="102" alignment="0" attributes="0">
+              <EmptySpace max="-2" attributes="0"/>
+              <Component id="jLabel1" min="-2" max="-2" attributes="0"/>
+              <EmptySpace type="separate" max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="3" attributes="0">
+                  <Component id="jLabel2" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="txtNome" alignment="3" min="-2" max="-2" attributes="0"/>
+              </Group>
+              <EmptySpace max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="3" attributes="0">
+                  <Component id="jLabel3" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="jComboBox1" alignment="3" min="-2" max="-2" attributes="0"/>
+              </Group>
+              <EmptySpace pref="210" max="32767" attributes="0"/>
+          </Group>
+      </Group>
+    </DimensionLayout>
+  </Layout>
+  <SubComponents>
+    <Component class="javax.swing.JLabel" name="jLabel1">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="CADASTRO DE JOGOS"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="jLabel2">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Nome:"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JTextField" name="txtNome">
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="txtNomeActionPerformed"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JLabel" name="jLabel3">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="G&#xea;nero:"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JComboBox" name="jComboBox1">
+      <Properties>
+        <Property name="model" type="javax.swing.ComboBoxModel" editor="org.netbeans.modules.form.editors2.ComboBoxModelEditor">
+          <StringArray count="59">
+            <StringItem index="0" value="A&#xe7;&#xe3;o"/>
+            <StringItem index="1" value="Aventura"/>
+            <StringItem index="2" value="RPG"/>
+            <StringItem index="3" value="RPG de A&#xe7;&#xe3;o"/>
+            <StringItem index="4" value="JRPG"/>
+            <StringItem index="5" value="Estrat&#xe9;gia"/>
+            <StringItem index="6" value="Estrat&#xe9;gia em Tempo Real (RTS)"/>
+            <StringItem index="7" value="Estrat&#xe9;gia por Turnos (TBS)"/>
+            <StringItem index="8" value="Simula&#xe7;&#xe3;o"/>
+            <StringItem index="9" value="Esportes"/>
+            <StringItem index="10" value="Corrida"/>
+            <StringItem index="11" value="Luta"/>
+            <StringItem index="12" value="Tiro em Primeira Pessoa (FPS)"/>
+            <StringItem index="13" value="Tiro em Terceira Pessoa (TPS)"/>
+            <StringItem index="14" value="Battle Royale"/>
+            <StringItem index="15" value="MOBA"/>
+            <StringItem index="16" value="MMORPG"/>
+            <StringItem index="17" value="MMO"/>
+            <StringItem index="18" value="Hack and Slash"/>
+            <StringItem index="19" value="Beat &apos;em Up"/>
+            <StringItem index="20" value="Plataforma"/>
+            <StringItem index="21" value="Metroidvania"/>
+            <StringItem index="22" value="Puzzle"/>
+            <StringItem index="23" value="Terror"/>
+            <StringItem index="24" value="Survival Horror"/>
+            <StringItem index="25" value="Sobreviv&#xea;ncia"/>
+            <StringItem index="26" value="Stealth"/>
+            <StringItem index="27" value="Sandbox"/>
+            <StringItem index="28" value="Mundo Aberto"/>
+            <StringItem index="29" value="Roguelike"/>
+            <StringItem index="30" value="Roguelite"/>
+            <StringItem index="31" value="Cartas"/>
+            <StringItem index="32" value="Tabuleiro"/>
+            <StringItem index="33" value="Ritmo"/>
+            <StringItem index="34" value="Musical"/>
+            <StringItem index="35" value="Visual Novel"/>
+            <StringItem index="36" value="Novela Interativa"/>
+            <StringItem index="37" value="Point and Click"/>
+            <StringItem index="38" value="Tower Defense"/>
+            <StringItem index="39" value="Defesa de Torre"/>
+            <StringItem index="40" value="Constru&#xe7;&#xe3;o"/>
+            <StringItem index="41" value="Gerenciamento"/>
+            <StringItem index="42" value="Casual"/>
+            <StringItem index="43" value="Arcade"/>
+            <StringItem index="44" value="Indie"/>
+            <StringItem index="45" value="Horror"/>
+            <StringItem index="46" value="Fic&#xe7;&#xe3;o Cient&#xed;fica"/>
+            <StringItem index="47" value="Fantasia"/>
+            <StringItem index="48" value="Educativo"/>
+            <StringItem index="49" value="Estrat&#xe9;gia T&#xe1;tica"/>
+            <StringItem index="50" value="RPG T&#xe1;tico"/>
+            <StringItem index="51" value="Dungeon Crawler"/>
+            <StringItem index="52" value="Shoot &apos;em Up"/>
+            <StringItem index="53" value="Bullet Hell"/>
+            <StringItem index="54" value="Furtividade"/>
+            <StringItem index="55" value="Narrativo"/>
+            <StringItem index="56" value="Party Game"/>
+            <StringItem index="57" value="Multiplayer"/>
+            <StringItem index="58" value="Cooperativo"/>
+          </StringArray>
+        </Property>
+      </Properties>
+      <AuxValues>
+        <AuxValue name="JavaCodeGenerator_TypeParameters" type="java.lang.String" value="&lt;String&gt;"/>
+      </AuxValues>
+    </Component>
+  </SubComponents>
+</Form>
